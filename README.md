@@ -1,4 +1,12 @@
-# azure_dsrp_mle
+# MLOps DSRP Project
+
+## 1. Problem description
+_This project aims to predict the prices of laptops based on their technical specifications, such as processor type, RAM size, storage capacity, brand, and other key features. Using a regression model, the project analyzes the relationship between these specifications and the corresponding laptop prices to provide accurate price predictions._
+
+ - Problem type: Linear Regression
+
+### Dataset
+Dataset obtains by [kaggle]("https://www.kaggle.com/datasets").
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
@@ -6,7 +14,7 @@
 
 dataset prediction project
 
-## Project Organization
+## 2. Project Organization
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
