@@ -12,9 +12,37 @@ Dataset obtains by [kaggle]("https://www.kaggle.com/datasets").
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-dataset prediction project
+## 2. Project Workflow
+![alt text](image-5.png)
 
-## 2. Project Organization
+## 3. Data exploration
+_The dataset has 76 columns on the specifications, the fields are of text, numeric and null type._
+
+![alt text](image.png)
+
+## 4. Data Cleaning and Preprocessing
+
+_Given the amount of data, we proceed to clean and take only the numerical and necessary fields that will be used for the prediction. The values will be converted to the correct data type._
+
+![alt text](image-1.png)
+
+## 5. Data Analysis and Visualizations
+
+_Having cleaned the data, we now move to visualizations to uncover relationships among features. We apply a series of visualizations such as histograms for distribution analysis, count plots for categorical frequencies, box plots for outlier detection, and a correlation heatmap if applicable. This multipronged strategy gives us a better insight into the structure of the dataset._
+
+![alt text](image-2.png)
+
+## 6. Predictive Modeling
+_Now that we have cleaned and analyzed our data, let's attempt to predict the price of a laptop based on a few key numeric features. We are using the features we cleaned earlier and a RandomForestRegressor for this regression task._
+
+_The notebook computes the performance metrics (R2 score and Root Mean Squared Error) to assess the prediction accuracy. We also visualize the permutation importance of the features to see which ones contribute the most to the prediction._
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+
+## 7. Project Organization
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
