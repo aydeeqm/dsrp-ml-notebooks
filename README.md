@@ -95,3 +95,7 @@ _The notebook computes the performance metrics (R2 score and Root Mean Squared E
 
 --------
 
+## 8. References
+- https://developers.google.com/machine-learning/crash-course
+
+- https://medium.com/@RobuRishabh/introduction-to-machine-learning-555b0f1b62f5
